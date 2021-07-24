@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+// import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -22,12 +22,12 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="/about-me.js" className={styles.card}>
-            <h2>About Me &rarr;</h2>
+            <h2>About Me</h2>
             <p>Learn about my journey from business to sofware development.</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>My Work &rarr;</h2>
+            <h2>My Work</h2>
             <p>Deployed projects featuring Next.js, MERN applications, Express, MongoDB, and more.</p>
           </a>
 
@@ -35,7 +35,7 @@ export default function Home() {
             href="https://github.com/vercel/next.js/tree/master/examples"
             className={styles.card}
           >
-            <h2>Experience &rarr;</h2>
+            <h2>Experience</h2>
             <p>Explore previous work experience and educational successes.</p>
           </a>
 
@@ -43,7 +43,7 @@ export default function Home() {
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h2>Contact Me &rarr;</h2>
+            <h2>Contact Me</h2>
             <p>
               Let's connect today.
             </p>
